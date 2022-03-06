@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap 4 Fixed Layout Example</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<div id="file">
+<nav class="navbar navbar-expand-lg navbar-light " id="grad3">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///C:/Users/Surthi/holy_place/index.html#"><b>Home</b> <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><b>About</b></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><b>Social Media </b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>Location</b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <b>Photos</b>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="photo.html">Unique Photos</a>
+              <a class="dropdown-item" href="past_present.html">Past-Present</a>
+              <a class="dropdown-item" href="#">News Ablum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>Donation</b></a>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <b>Rooms</b>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Available Rooms</a>
+            <a class="dropdown-item" href="#">Booking Rooms</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <b>Events</b>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Live Events Now</a>
+              <a class="dropdown-item" href="#">Available Event</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <b>General Information</b>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="file:///C:/Users/Surthi/holy_place/generalinfo.html">Don's and Don'ts</a>
+              <a class="dropdown-item" href="#">FAQs</a>
+          </li>
+      </ul>
+  </div>  
+ </nav>
+ <!-- Gallery -->
+<br><br>
+<body id="g1">
+
+  <div id="side-menu" class="fas fa-bars"></div>   
+<div class="gallery">
+
+   <h1 class="heading">image gallery</h1>
+
+   <div class="image-container">
+      <img src="uq1.jpg" data-cat="animal" data-search="animal bird cute chicks" alt="">
+      <img src="uq2.jpg" data-cat="food" data-search="vector cookies christmas" alt="">
+      <img src="uq3.jpg" data-cat="food" data-search="food corn cartoon png" alt="">
+      <img src="uq4.jpg" data-cat="fish" data-search="animal fish dolphin" alt="">
+      <img src="uq5.jpg" data-cat="animal" data-search="animal squirrel cute" alt="">
+      <img src="uq6.jpg" data-cat="animal" data-search="animal panda png cartoon" alt="">
+      <img src="uq7.jpg" data-cat="animal" data-search="animal penguine bird cartoon" alt="">
+      <img src="uq8.jpg" data-cat="animal" data-search="animal bird cute" alt="">
+      <img src="uq9.jpg" data-cat="animal" data-search="animal cat mouse cute png" alt="">
+      <img src="uq10.jpg" data-cat="fish" data-search="animal fish shark vector" alt="">
+   </div>
+
+</div>
+
+<div class="image-popup">
+   <img src="" alt="">
+</div>
+</div>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+  #grad3 {
+
+background-image: linear-gradient(180deg, #11ed11,#0cf2ee);
+}
+
+:root{
+   --crimson:crimson;
+   --black:#333;
+   --white:#fff;
+   --light-black:#666;
+   --light-bg:#eee;
+   --dark-bg:rgba(0,0,0,.7);
+   --border:1px solid #999;
+   --box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition: all .2s linear;
+}
+
+body{
+   background-color: var(--light-bg);
+}
+
+::-webkit-scrollbar{
+   width: 10px;
+}
+
+::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+   background-color: var(--black);
+}
+
+.heading{
+   margin-bottom: 20px;
+   font-size: 30px;
+   color:var(--black);
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.btn{
+   margin-top: 10px;
+   display: inline-block;
+   padding:10px 30px;
+   cursor: pointer;
+   font-size: 17px;
+   background-color: var(--light-bg);
+   color:var(--black);
+   text-transform: capitalize;
+   text-align: center;
+}
+
+.btn:hover{
+   background-color: var(--crimson);
+   color:var(--white);
+}
+
+.gallery{
+   padding:20px;
+   text-align: center;
+   padding-left: 20px;
+}
+
+.gallery .image-container{
+   gap:15px;
+   columns:3 350px;
+}
+
+.gallery .image-container img{
+   break-inside: avoid;
+   width: 100%;
+   background-color: var(--white);
+   object-fit: cover;
+   cursor: pointer;
+   margin-bottom: 10px;
+   box-shadow: var(--box-shadow);
+}
+
+.gallery .image-container img:hover{
+   transform: scale(.95);
+}
+
+.side-bar{
+   height: 100vh;
+   width: 300px;
+   position: fixed;
+   top:0; left:0;
+   z-index: 1000;
+   background-color: var(--white);
+   padding:20px;
+   border-right: var(--border);
+   overflow-y: scroll;
+}
+
+.side-bar::-webkit-scrollbar{
+   width: 5px;
+}
+
+.side-bar .box{
+   border-bottom: var(--border);
+   padding:20px 0;
+}
+
+.side-bar .box .title{
+   margin-bottom: 10px;
+   color:var(--black);
+   font-size: 20px;
+   text-transform: uppercase;
+}
+
+.side-bar .btn{
+   margin-left: 5px;
+}
+
+.side-bar .btn.active{
+   background-color: var(--crimson);
+   color:var(--white);
+}
+
+.side-bar .box #search-box{
+   border:var(--border);
+   padding:12px;
+   text-transform: none;
+   color:var(--light-black);
+   width: 100%;
+   font-size: 17px;
+}
+
+.side-bar .reset-btn .btn{
+   margin-top: 20px;
+   width: 100%;
+}
+
+
+.image-popup{
+   position: fixed;
+   top:0; left:0;
+   z-index: 1200;
+   background-color: var(--dark-bg);
+   height: 100vh;
+   width: 100%;
+   display: none;
+   align-items: center;
+   justify-content: center;
+   padding:100px 20px;
+   overflow-y: scroll;
+}
+
+.image-popup img{
+   width:600px;
+   cursor: pointer;
+   border:10px solid var(--white);
+   background-color: var(--white);
+}
+
+
+
+
+
+@media (max-width:1200px){
+
+   .gallery{
+      padding-left: 20px;
+   }
+
+   #side-menu{
+      display: block;
+   }
+
+   #side-menu.fa-times{
+      top:0;
+      left: 300px;
+   }
+
+   .side-bar{
+      left: -350px;
+   }
+
+   .side-bar.active{
+      box-shadow: 0 0 0 100vw var(--dark-bg);
+      left:0;
+      z-index: 1000;
+   }
+
+}
+
+@media (max-width:768px){
+
+   .image-popup img{
+      width: 100%;
+   }
+
+}
+
+@media (max-width:450px){
+
+   #side-menu.fa-times{
+      top:10px;
+      left: 10px;
+   }
+
+   .side-bar.active{
+      padding-top: 70px;
+   }
+
+}
+</style>
+
+<script>
+  let sideMenu = document.querySelector('#side-menu');
+let sideBar = document.querySelector('.side-bar');
+
+sideMenu.onclick = () =>{
+   sideMenu.classList.toggle('fa-times');
+   sideBar.classList.toggle('active');
+};
+
+let galleryImages = document.querySelectorAll('.image-container img');
+let imagePop = document.querySelector('.image-popup');
+
+galleryImages.forEach(img =>{
+   img.onclick = () =>{
+      let imageSrc = img.getAttribute('src');
+      imagePop.style.display = 'flex';
+      imagePop.querySelector('img').src = imageSrc;
+   };
+});
+
+imagePop.onclick = () =>{
+   imagePop.style.display = 'none';
+};
+
+document.querySelector('#search-box').oninput = () =>{
+   var value = document.querySelector('#search-box').value.toLowerCase();
+   galleryImages.forEach(img =>{
+      var filter = img.getAttribute('data-search').toLowerCase();
+      if(filter.indexOf(value) > -1){
+         img.style.display = 'block';
+      }else{
+         img.style.display = 'none';
+      };
+   });
+};
+
+let categoryBtn = document.querySelectorAll('.category .btn');
+
+categoryBtn.forEach(btn =>{
+   btn.onclick = () =>{
+      categoryBtn.forEach(remove => remove.classList.remove('active'));
+      let dataCategory = btn.getAttribute('data-category');
+      galleryImages.forEach(img =>{
+         var imgCat = img.getAttribute('data-cat');
+         if(dataCategory == 'all'){
+            img.style.display = 'block';
+         }else if(dataCategory == imgCat){
+            img.style.display = 'block';
+         }else{
+            img.style.display = 'none';
+         }
+      });
+      btn.classList.add('active');
+   };
+});
+
+let typeBtn = document.querySelectorAll('.type .btn');
+
+typeBtn.forEach(btn =>{
+   btn.onclick = () =>{
+      typeBtn.forEach(remove => remove.classList.remove('active'));
+      let datatype = btn.getAttribute('data-type');
+      galleryImages.forEach(img =>{
+         var imgtype = img.getAttribute('src').split('.').pop();
+         if(datatype == 'all'){
+            img.style.display = 'block';
+         }else if(datatype == imgtype){
+            img.style.display = 'block';
+         }else{
+            img.style.display = 'none';
+         }
+      });
+      btn.classList.add('active');
+   };
+});
+
+document.querySelector('.reset-btn .btn').onclick = () =>{
+   window.location.reload();
+};
+</script>
+
+  </body>
